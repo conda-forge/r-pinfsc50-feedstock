@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,11 +13,11 @@ source:
     - https://cran.r-project.org/src/contrib/pinfsc50_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/pinfsc50/pinfsc50_{{ version }}.tar.gz
 
-  sha256: b6b9b6365a3f408533264d7ec820494f57eccaf362553e8478a46a8e5b474aba
+  sha256: ed1fe214b9261feef8abfbf724c2bd9070d68e99a6ea95208aff2c57bbef8794
 
 build:
   noarch: generic
-  number: 1003
+  number: 0
 
   rpaths:
     - lib/R/lib/
