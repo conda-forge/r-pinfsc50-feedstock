@@ -1,11 +1,11 @@
-About r-pinfsc50
-================
+About r-pinfsc50-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pinfsc50-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=pinfsc50
 
 Package license: GPL
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pinfsc50-feedstock/blob/main/LICENSE.txt)
 
 Summary: Genomic data for the plant pathogen "Phytophthora infestans." It includes a variant file ('VCF'), a sequence file ('FASTA') and an annotation file ('GFF'). This package is intended to be used as example data for packages that work with genomic data.
 
